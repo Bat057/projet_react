@@ -1,0 +1,123 @@
+.fiche {
+    margin: 50px 5% 0 5%;
+
+    .title_host {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .title {
+
+            h2 {
+                margin: 0;
+                padding: 0;
+                font-family: Montserrat;
+                font-weight: 500;
+                font-size: 36px;
+                color: #FF6060;
+            }
+
+            p {
+                font-family: Montserrat;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+
+        .host {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            .hostName {
+                margin: 0;
+                padding: 0;
+                max-width: 5rem;
+                text-wrap: balance;
+                font-family: Montserrat;
+                font-weight: 500;
+                font-size: 18px;
+                text-align: end;
+            }
+
+            img {
+                width: 64px;
+                object-fit: cover;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tags_rating {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+
+        .tags {
+            display: flex;
+            gap: 10px;
+            margin: 0;
+            padding: 0;
+            width: 115;
+
+            li {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                width: 115px;
+                padding: 3px 0 3px 0;
+                border-radius: 10px;
+                background-color: #FF6060;
+                font-family: Montserrat;
+                font-weight: 700;
+                font-style: Bold;
+                font-size: 14px;
+                color: white;
+            }
+        }
+
+        .rating{
+            display: flex;
+            gap: 15px;
+            img{
+                width: 24px;
+            }
+        }
+    }
+    .description_equipments{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        .collapse{
+            width: 50%;
+            .main{
+                width: 100%;
+                padding: 0;
+                .titre{
+                    padding-left: 15px;
+                }
+                .btn{
+                    padding-right: 15px;
+                }
+            }
+            .content{
+                width: 100%;
+                padding: 0;
+                .description{
+                    padding: 15px 15px 15px 15px;
+                }
+            }
+        }
+    }
+
+
+    li {
+        list-style-type: none;
+
+    }
+
+
+}

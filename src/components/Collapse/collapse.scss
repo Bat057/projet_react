@@ -1,0 +1,52 @@
+.collapse{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition-duration: 2s;
+    
+    .main {
+        max-width: 993px;
+        width: 50%;
+        height: 52px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FF6060;
+        border-radius: 5px;
+        padding: 0 15px 0 15px;
+
+        .titre{
+            color: white;
+            font-family: Montserrat;
+            font-weight: 700;
+            font-size: 24px;
+            font-style: Bold;
+            line-height: 143%;
+        }
+
+        .btn {
+            width: 32px;
+            height: 32px;
+        }
+    }
+    .content{
+        background: #F6F6F6;
+        border-radius: 0 0 5px 5px;
+        width: 50%;
+        padding: 15px 15px 15px 15px;
+
+        .description{
+            color: black;
+            font-family: Montserrat;
+            margin: 0;
+            
+        }
+    }
+
+}
+
+
+
+
+
+
